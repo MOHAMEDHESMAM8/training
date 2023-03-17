@@ -134,7 +134,19 @@ body{
     .land-img .img-overlay{
         font-size: 50px;
     }
+}
+
+
+
+@media only screen and (max-width: 500px) {
     
+    .land-img .img-overlay{
+        font-size: 35px;
+    }
+    .land-img .img-overlay img{
+    width:60px;
+    left: 15px;
+    }
 }
 
 
@@ -1689,3 +1701,69 @@ footer div *{
     }
 }
 
+
+.tq3-1  img {
+
+    width: 70px;
+    margin-bottom: 20px;
+}
+
+.tq3-1  .tg3-card {
+    font-size: 22px;
+    font-weight: bold;
+    display: flex;
+    background-color: #182F4D;
+    color: #fff;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    width: 15%;
+    padding: 20px 50px;
+    border-radius: 20px;
+    transition: all 0.3 ease-in-out;
+}
+.tg3::after,.tg3::before{
+    border-color: #28BAA5;
+
+}
+.tg3 .in2-header{
+
+background-color: #28BAA5;
+
+}
+.tq3-1  .tg3-card:hover {
+background-color: #28BAA5;
+}
+@media only screen and (max-width: 1000px) {
+    .tq3-1  .tg3-card {
+        width: 30%;
+        margin-bottom: 50px;
+
+    }
+    
+}
+@media only screen and (max-width: 700px) {
+    .tq3-1  .tg3-card {
+        width: 40%;
+        margin-bottom: 50px;
+
+    }
+    
+}
+@media only screen and (max-width: 500px) {
+    .tq3-1  .tg3-card {
+        width: 80%;
+        margin-bottom: 50px;
+
+    }
+    
+}
+
+.t5-2 .icon-1{
+
+width: 100px;
+
+
+
+}
