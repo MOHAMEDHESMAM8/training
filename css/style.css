@@ -615,7 +615,9 @@ text-align: center;
     
 
 }
-
+.mgzarbox{
+    grid-template-columns: 1fr 1fr 1fr;
+}
 .event-cont img  {
    max-height:300px ;
 }
